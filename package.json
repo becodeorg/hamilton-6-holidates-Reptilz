@@ -1,10 +1,13 @@
 {
-  "name": "hamilton-6-holidates-reptilz",
+  "name": "@morlet/holidates",
   "version": "1.0.0",
-  "description": "first project in NodeJS",
+  "description": "Holidates in countries",
   "main": "index.js",
   "scripts": {
-    "test": "console.log(\"Hello, Node.JS\");"
+    "holidates": "npm run ./index.js"
+  },
+  "bin": {
+    "holidates": "index.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +25,6 @@
     "country-list": "^2.2.0",
     "ora": "^6.1.0",
     "readline-sync": "^1.4.10"
-  }
+  },
+  "devDependencies": {}
 }

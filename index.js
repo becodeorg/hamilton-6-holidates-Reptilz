@@ -26,7 +26,8 @@ const publicHolidays = async () => {
            console.log(`${data.name}/${data.date}`)
     
        });
-   } catch(error) {
+
+   }catch(error) {
        console.log(error);
    }
 }
