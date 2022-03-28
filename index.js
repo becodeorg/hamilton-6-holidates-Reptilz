@@ -1,9 +1,9 @@
 #!/usr/bin/env node
+
 const axios = require('axios').default;
-const { getCode, getName } = require('country-list');
-const country = getCode("belgium");
+const { getCode } = require('country-list');
 
-
+const country = "Belgium";
 
 async function myNodeCLITool(countryCode) {
     const year = "2022";
@@ -17,9 +17,8 @@ async function myNodeCLITool(countryCode) {
     catch(err){
         console.log(err);
     }
-    return countryCode;
 }
-myNodeCLITool(country);
+myNodeCLITool(getCode(country));
 
 
 
