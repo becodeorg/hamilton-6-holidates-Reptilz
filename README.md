@@ -1,5 +1,5 @@
 
-<h1 align="center">Welcome to hamilton-6-holidates-reptilz 👋</h1>
+<h1 align="center">Welcome to Holidates @Jordan Morlet 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/becodeorg/hamilton-6-holidates-Reptilz#readme" target="_blank">
@@ -20,13 +20,13 @@
 ## Install
 
 ```sh
-npm install
+npm i @morlet/holidates
 ```
 
 ## Run tests
 
 ```sh
-npm run test
+node .
 ```
 
 ## Author
@@ -50,8 +50,6 @@ Copyright © 2022 [Jordan MORLET](https://github.com/Reptilz).<br />
 This project is [ISC](https://github.com/becodeorg/hamilton-6-holidates-Reptilz/blob/master/LICENSE) licensed.
 
 ***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
-=======
-# hamilton-6-holidates-Reptilz
+
 hamilton-6-holidates-Reptilz created by GitHub Classroom
 
