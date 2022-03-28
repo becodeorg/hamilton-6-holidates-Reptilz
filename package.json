@@ -1,0 +1,25 @@
+{
+  "name": "hamilton-6-holidates-reptilz",
+  "version": "1.0.0",
+  "description": "first project in NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "console.log(\"Hello, Node.JS\");"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/becodeorg/hamilton-6-holidates-Reptilz.git"
+  },
+  "author": "Jordan MORLET",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/becodeorg/hamilton-6-holidates-Reptilz/issues"
+  },
+  "homepage": "https://github.com/becodeorg/hamilton-6-holidates-Reptilz#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "chalk": "^5.0.1",
+    "country-list": "^2.2.0",
+    "ora": "^6.1.0"
+  }
+}
