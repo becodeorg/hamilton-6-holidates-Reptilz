@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1 align="center">Welcome to hamilton-6-holidates-reptilz 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
@@ -50,3 +51,7 @@ This project is [ISC](https://github.com/becodeorg/hamilton-6-holidates-Reptilz/
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+=======
+# hamilton-6-holidates-Reptilz
+hamilton-6-holidates-Reptilz created by GitHub Classroom
+>>>>>>> f4bd0e421f4c0ff42622553000cfa597868ac97a
