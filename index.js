@@ -1,24 +1,36 @@
 #!/usr/bin/env node
 
-const axios = require('axios').default;
-const { getCode } = require('country-list');
+//Variables
+const axios = require('axios');
+const country = require('country-list');
+const readlineSync = require('readline-sync');
 
-const country = "Belgium";
 
-async function myNodeCLITool(countryCode) {
-    const year = "2022";
-    const url = `https://date.nager.at/api/v3/publicholidays/${year}/${countryCode}`;
+//Get the year (4 digits)
+const day = new Date().getFullYear();
+//get api url
+const url ='https://date.nager.at/api/v3/PublicHolidays/';
 
-    try{
-        const response = await axios.get(url);
-        const datas = response.data;
-        console.log(datas);
-    }
-    catch(err){
-        console.log(err);
-    }
+//Questionne l'utilisateur d'encoder un pays...
+const messageUserCountry = readlineSync.question('Enter a country:');
+//Convertis le pays en son code ISO
+const countryCode = country.getCode(messageUserCountry);
+
+
+//récupération des données dans l'API et affichage dans la console
+const publicHolidays = async () => {   
+   try {
+       const response = await axios.get(`${url}${day}/${countryCode}`);
+       const datas = response.data;
+        datas.forEach((data) => {
+           console.log(`${data.name}/${data.date}`)
+    
+       });
+   } catch(error) {
+       console.log(error);
+   }
 }
-myNodeCLITool(getCode(country));
+publicHolidays(day, countryCode);
 
 
 
