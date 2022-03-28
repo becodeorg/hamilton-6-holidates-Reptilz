@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <h1 align="center">Welcome to hamilton-6-holidates-reptilz 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
@@ -34,7 +34,7 @@ npm run test
 👤 **Jordan MORLET**
 
 * Github: [@Reptilz](https://github.com/Reptilz)
-* LinkedIn: [@Jordan MORLET](https://linkedin.com/in/Jordan MORLET)
+* LinkedIn: [@Jordan MORLET](https://www.linkedin.com/in/jordan-morlet-18481619a/)
 
 ## 🤝 Contributing
 
@@ -54,4 +54,4 @@ _This README was generated with ❤️ by [readme-md-generator](https://github.c
 =======
 # hamilton-6-holidates-Reptilz
 hamilton-6-holidates-Reptilz created by GitHub Classroom
->>>>>>> f4bd0e421f4c0ff42622553000cfa597868ac97a
+
